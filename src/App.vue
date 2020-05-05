@@ -1,12 +1,11 @@
 <template>
-  <div id="app">
+  <div>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view />
+    <router-view class="flex justify-center m-8 my-16 bg-gray-200" />
   </div>
 </template>
 
-<style>
-</style>
+<style></style>
