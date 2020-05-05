@@ -7,7 +7,7 @@
       <Actions payload="Actions component" />
     </div>
     <div class="text-gray-700 px-4 py-2 m-2">
-      <Header payload="Christine Nguyen is ..." />
+      <Header payload="in Phoenix, Arizona." />
     </div>
   </div>
 </template>
