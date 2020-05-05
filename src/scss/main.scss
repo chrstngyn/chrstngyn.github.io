@@ -2,8 +2,8 @@
 @import "~tailwindcss/components";
 @import "~tailwindcss/utilities";
 
-// Google Fonts - Playfair Display, Raleway
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Raleway&display=swap');
+// Google Fonts - Playfair Display, Montserrat
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Playfair+Display&display=swap');
 
 html {
   overflow-y: hidden;
@@ -20,5 +20,4 @@ h1 {
 
 h2 {
   font-size: 3rem;
-  font-weight: bold;
 }

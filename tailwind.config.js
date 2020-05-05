@@ -16,7 +16,7 @@ module.exports = {
     // fonts
     fontFamily: {
       serif: ["Playfair Display", "serif"],
-      sans: ["Raleway", "sans-serif"]
+      sans: ["Lato", "sans-serif"]
     },
 
     // global color palette
