@@ -10,26 +10,21 @@ module.exports = {
     },
 
     container: {
-      center: true,
-      padding: {
-        default: "1rem",
-        sm: "2rem",
-        lg: "4rem",
-        xl: "5rem"
-      }
+      center: true
     },
 
+    // fonts
     fontFamily: {
-      display: ["Inconsolata", "monospace"],
-      body: ["Montserrat", "sans-serif"]
+      serif: ["Playfair Display", "serif"],
+      sans: ["Raleway", "sans-serif"]
     },
 
     // global color palette
-    colors: {
-      transparent: "transparent",
-      black: "#000",
-      white: "#fff"
-    },
+    // colors: {
+    //   transparent: "transparent",
+    //   black: "#000",
+    //   white: "#fff"
+    // },
     extend: {}
   },
   variants: {},
