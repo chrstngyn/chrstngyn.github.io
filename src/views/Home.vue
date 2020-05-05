@@ -8,6 +8,11 @@
     </div>
     <div class="text-gray-700 px-4 py-2 m-2">
       <Header payload="in Phoenix, Arizona." />
+      <router-link
+        class="bg-blue-200 text-gray-500 p-2 mr-24 float-right"
+        to="/about"
+        >+ more about me?</router-link
+      >
     </div>
   </div>
 </template>
