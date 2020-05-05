@@ -16,7 +16,7 @@ module.exports = {
     // fonts
     fontFamily: {
       serif: ["Playfair Display", "serif"],
-      sans: ["Lato", "sans-serif"]
+      sans: ["Overpass", "sans-serif"]
     },
 
     // global color palette

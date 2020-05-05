@@ -3,7 +3,7 @@
 @import "~tailwindcss/utilities";
 
 // Google Fonts - Playfair Display, Montserrat
-@import url('https://fonts.googleapis.com/css?family=Lato:700|Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Overpass|Playfair+Display&display=swap');
 
 html {
   overflow-y: hidden;
@@ -19,5 +19,6 @@ h1 {
 }
 
 h2 {
+  font-weight: lighter;
   font-size: 3rem;
 }
