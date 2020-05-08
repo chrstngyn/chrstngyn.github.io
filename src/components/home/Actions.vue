@@ -1,16 +1,15 @@
 <template>
-  <div class="flex flex-wrap space-x-4 bg-blue-200 mx-16">
+  <div class="flex flex-wrap content-start space-x-2 bg-blue-200 mx-16">
     <div
       class="flex-initial bg-pink-200 p-2"
       v-for="(action, index) in actions"
       :key="index"
     >
-      <h2 v-bind:id="`container-${index}`">
-        {{ action }}
-        <span v-if="index != actions.length - 1 && index != actions.length - 2"
-          >,</span
-        >
-        <span v-if="index == actions.length - 2"> and</span>
+      <h2 :id="`container-${index}`">
+        <span v-if="index !== actions.length - 1">
+          {{ action.concat(",") }}
+        </span>
+        <span v-if="index === actions.length - 1">and {{ action }}</span>
       </h2>
     </div>
   </div>
@@ -23,11 +22,11 @@ import { Component, Vue } from "vue-property-decorator";
 export default class Actions extends Vue {
   actions: string[] = [
     "learning",
+    "researching",
     "designing",
     "writing",
     "coding",
     "reading",
-    "researching",
     "creating",
     "innovating"
   ];
