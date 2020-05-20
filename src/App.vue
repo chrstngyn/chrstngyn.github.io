@@ -1,5 +1,5 @@
 <template>
   <div class="flex items-center justify-center p-0 m-0 h-full">
-    <router-view class="w-2/3 bg-gray-200" />
+    <router-view class="w-2/3 bg-gray-200 p-12" />
   </div>
 </template>

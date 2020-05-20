@@ -3,7 +3,7 @@
     <!-- top text -->
     <div class="flex flex-row items-center">
       <Header
-        class="text-gray-700 px-4 py-2 m-2"
+        class="text-gray-800 px-4 py-2 m-2"
         payload="Christine Nguyen is . . . "
       />
       <div class="flex-shrink y-divider bg-gray-800 w-2/3"></div>
@@ -18,7 +18,7 @@
     <div class="flex flex-row items-center">
       <div class="flex-shrink y-divider bg-gray-800 ml-auto w-2/3"></div>
       <Header
-        class="text-gray-700 px-4 py-2 m-2"
+        class="text-gray-800 px-4 py-2 m-2"
         payload="in Phoenix, Arizona."
       />
     </div>

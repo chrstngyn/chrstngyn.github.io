@@ -5,12 +5,31 @@
       v-for="(action, index) in actions"
       :key="index"
     >
-      <h2 :id="`container-${index}`">
-        <span v-if="index !== actions.length - 1">
+      <h1 :id="`action-${index}`">
+        <span v-if="index === 0" class="grow">
+          <span> {{ action }}</span>
+
+          <span>
+            on various projects,
+          </span>
+        </span>
+        <span v-else-if="index === 2">
+          {{ action }}
+          <span class="grow">
+            about different css frameworks,
+          </span>
+        </span>
+        <span v-else-if="index === 4">
+          {{ action }}
+          <span class="grow">
+            about tech on medium,
+          </span>
+        </span>
+        <span v-else-if="index !== actions.length - 1">
           {{ action.concat(",") }}
         </span>
-        <span v-if="index === actions.length - 1">and {{ action }}</span>
-      </h2>
+      </h1>
+      <h1 v-if="index === actions.length - 1">and {{ action }}</h1>
     </div>
   </div>
 </template>
@@ -21,11 +40,11 @@ import { Component, Vue } from "vue-property-decorator";
 @Component
 export default class Actions extends Vue {
   actions: string[] = [
+    "coding",
+    "designing",
     "learning",
     "researching",
-    "designing",
     "writing",
-    "coding",
     "reading",
     "creating",
     "innovating"
