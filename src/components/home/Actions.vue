@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-wrap content-start space-x-2 bg-blue-200 mx-16">
+  <div class="flex flex-wrap content-start space-x-2">
     <div
-      class="flex-initial bg-pink-200 p-2"
+      class="flex-initial p-2"
       v-for="(action, index) in actions"
       :key="index"
     >

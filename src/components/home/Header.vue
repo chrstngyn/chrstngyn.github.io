@@ -1,9 +1,8 @@
 <template>
   <div class="flex" :class="configureFlexRow(payload)">
-    <div class="flex-none px-4 py-2 m-4">
+    <div class="flex-none">
       <h1 class="font-serif">{{ payload }}</h1>
     </div>
-    <div class="flex-shrink y-divider bg-gray-800 px-4 my-10"></div>
   </div>
 </template>
 
@@ -24,4 +23,3 @@ export default class Header extends Vue {
 }
 </script>
 
-<style scoped></style>

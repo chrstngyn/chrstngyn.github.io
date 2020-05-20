@@ -1,19 +1,32 @@
 <template>
-  <div class="flex flex-col w-2/3">
-    <div class="text-gray-700 px-4 py-2 m-2">
-      <Header payload="Christine Nguyen is ..." />
+  <div class="flex flex-col">
+    <!-- top text -->
+    <div class="flex flex-row items-center">
+      <Header
+        class="text-gray-700 px-4 py-2 m-2"
+        payload="Christine Nguyen is ..."
+      />
+      <div class="flex-shrink y-divider bg-gray-800 w-2/3"></div>
     </div>
-    <div class="text-gray-700 content-center bg-gray-400 p-16 mx-64 my-2">
+
+    <!-- list of actions -->
+    <div class="text-gray-700 mx-auto p-10 w-2/3">
       <Actions payload="Actions component" />
     </div>
-    <div class="text-gray-700 px-4 py-2 m-2">
-      <Header payload="in Phoenix, Arizona." />
-      <router-link
-        class="bg-blue-200 text-gray-500 p-2 mr-24 float-right"
-        to="/about"
-        >+ more about me?</router-link
-      >
+
+    <!-- bottom text -->
+    <div class="flex flex-row items-center">
+      <div class="flex-shrink y-divider bg-gray-800 w-2/3 ml-auto"></div>
+      <Header
+        class="text-gray-700 px-4 py-2 m-2"
+        payload="in Phoenix, Arizona."
+      />
     </div>
+
+    <!-- go to about -->
+    <router-link class="text-gray-500 px-2 pb-4 ml-auto mr-24" to="/about"
+      >++ more about me?</router-link
+    >
   </div>
 </template>
 
