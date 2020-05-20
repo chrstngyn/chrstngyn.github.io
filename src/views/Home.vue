@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col px-32">
+  <div class="flex flex-col w-2/3">
     <div class="text-gray-700 px-4 py-2 m-2">
       <Header payload="Christine Nguyen is ..." />
     </div>

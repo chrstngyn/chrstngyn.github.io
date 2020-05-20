@@ -5,8 +5,13 @@
 // Google Fonts - Playfair Display, Montserrat
 @import url('https://fonts.googleapis.com/css?family=Overpass|Playfair+Display&display=swap');
 
-html {
-  overflow-y: hidden;
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
 }
 
 .y-divider {
