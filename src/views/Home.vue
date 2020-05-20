@@ -4,7 +4,7 @@
     <div class="flex flex-row items-center">
       <Header
         class="text-gray-700 px-4 py-2 m-2"
-        payload="Christine Nguyen is ..."
+        payload="Christine Nguyen is . . . "
       />
       <div class="flex-shrink y-divider bg-gray-800 w-2/3"></div>
     </div>
@@ -16,7 +16,7 @@
 
     <!-- bottom text -->
     <div class="flex flex-row items-center">
-      <div class="flex-shrink y-divider bg-gray-800 w-2/3 ml-auto"></div>
+      <div class="flex-shrink y-divider bg-gray-800 ml-auto w-2/3"></div>
       <Header
         class="text-gray-700 px-4 py-2 m-2"
         payload="in Phoenix, Arizona."
@@ -24,8 +24,10 @@
     </div>
 
     <!-- go to about -->
-    <router-link class="text-gray-500 px-2 pb-4 ml-auto mr-24" to="/about"
-      >++ more about me?</router-link
+    <router-link
+      class="about-link text-gray-500 font-sans mb-4 ml-auto mr-8 px-1"
+      to="/about"
+      >+ more about me?</router-link
     >
   </div>
 </template>
